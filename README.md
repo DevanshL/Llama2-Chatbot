@@ -12,28 +12,26 @@ Welcome to the **Llama2 Chatbot** application! This chatbot is designed to provi
 
 To install the necessary dependencies, run:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 ## Usage
 1. Clone the repository:
 ```
-bash
 git clone https://github.com/yourusername/llama2-chatbot.git
 cd llama2-chatbot
 ```
 
 2. Install the required packages:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 3. Create a config.json file to store your Hugging Face API credentials.
 4. Run the Streamlit application:
    
 ```
-bash
 streamlit run app.py
 ```
 5. Open your browser and go to http://localhost:8501 to interact with the chatbot.
