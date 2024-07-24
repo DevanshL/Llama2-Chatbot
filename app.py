@@ -3,7 +3,7 @@ from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
 from langchain_community.llms import LlamaCpp
 from llama_index.llms.llama_cpp.llama_utils import messages_to_prompt, completion_to_prompt
 from langchain.schema import SystemMessage, HumanMessage, AIMessage
-from download_model import download_model
+from model import download_model
 
 class CustomMessage:
     def __init__(self, role, content):
