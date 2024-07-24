@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8298b280-6083-4c58-a349-4e28db42f917)![image](https://github.com/user-attachments/assets/21855259-f845-47c4-918c-6dbfcec9e209)# Llama2 Chatbot
+# Llama2 Chatbot (HUGGING FACE/BLOKE)
 
 Welcome to the **Llama2 Chatbot** application! This chatbot is designed to provide informative and engaging responses to your queries using the advanced Llama2 language model.
 
