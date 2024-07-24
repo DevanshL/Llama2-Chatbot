@@ -1,4 +1,4 @@
-# Llama2 Chatbot
+![image](https://github.com/user-attachments/assets/8298b280-6083-4c58-a349-4e28db42f917)![image](https://github.com/user-attachments/assets/21855259-f845-47c4-918c-6dbfcec9e209)# Llama2 Chatbot
 
 Welcome to the **Llama2 Chatbot** application! This chatbot is designed to provide informative and engaging responses to your queries using the advanced Llama2 language model.
 
@@ -62,10 +62,12 @@ In your app.py file, add code to read the config.json file and use the configura
 
 ## Screenshots
 
-Figure 1: The main interface of the Llama2 Chatbot.
+Figure 1: The  Interface of  the Llama2 Chatbot.
+![Interface](https://github.com/DevanshL/Llama2-chatbot/blob/main/Images/Interface.png?raw=true)
 
 
-Figure 2: An example conversation with the Llama2 Chatbot.
+Figure 2: The  conversation example of the Llama2 Chatbot.
+![chat](https://github.com/DevanshL/Llama2-chatbot/blob/main/Images/Screenshot_2024-07-24_16-20-06.png?raw=true)
 
 ## Contributing
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
