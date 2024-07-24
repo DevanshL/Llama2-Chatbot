@@ -3,6 +3,7 @@ from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
 from langchain_community.llms import LlamaCpp
 from llama_index.llms.llama_cpp.llama_utils import messages_to_prompt, completion_to_prompt
 from langchain.schema import SystemMessage, HumanMessage, AIMessage
+from model import download_model
 
 class CustomMessage:
     def __init__(self, role, content):
@@ -15,8 +16,9 @@ def init_page() -> None:
     st.sidebar.title("Options")
 
 def select_llm() -> LlamaCpp:
+    model_path = download_model()  # Download the model
     return LlamaCpp(
-        model_path="llama-2-7b-chat.Q8_0.gguf",
+        model_path=model_path,
         temperature=0.7,
         max_new_tokens=4000,
         context_window=4096,
