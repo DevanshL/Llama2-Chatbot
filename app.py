@@ -17,8 +17,8 @@ def init_page() -> None:
 def select_llm() -> LlamaCpp:
     return LlamaCpp(
         model_path="llama-2-7b-chat.Q8_0.gguf",
-        temperature=0.1,
-        max_new_tokens=5000,
+        temperature=0.7,
+        max_new_tokens=4000,
         context_window=4096,
         generate_kwargs={},
         model_kwargs={},
@@ -75,7 +75,7 @@ def main() -> None:
         except ValueError as e:
             st.toast("Message limit reached. Please clear the conversation to continue.")
         except AssertionError as e:
-            st.toast("There was an issue with the message format. Please clear the conversation to continue.")
+            st.toast("Message limit reached. Please clear the conversation to continue.")
 
     messages = st.session_state.get("messages", [])
     for message in messages:
